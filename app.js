@@ -1,6 +1,7 @@
 document.addEventListener('click', function(){
 	const mainHeading = document.querySelector('h1');
 
+
 	mainHeading.setAttribute("style","background-color: red;");
 })
 
@@ -19,3 +20,6 @@ for (let i = 1; i <= 200; i++) {
 
 document.body.appendChild(myCustomDiv);
 */
+	mainHeading.style.backgroundColor = 'red';
+
+
